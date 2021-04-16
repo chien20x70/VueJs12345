@@ -1,0 +1,157 @@
+
+button{
+    padding-left: 44px;
+    padding-right: 24px;
+    color: #000000;
+    height: 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    font-family: GoogleSans-Regular;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    opacity: .5;
+}
+
+.btn-add{
+    background-color: #019160;
+    color: #ffffff;
+    background-image: url('../../assets/icon/add.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: center;
+    background-position-x: 16px;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+.btn-add:hover {
+    background-color: #2FBE8E;
+}
+
+.btn-add:active {
+    background-color: #01B075;
+}
+
+.btn-refresh{
+    padding-left: 24px;
+    padding-right: 24px;
+    background-image: url("../../assets/icon/refresh.png");
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+}
+.btn-refresh:hover{
+    background-color: #bbb;
+}
+.btn-navpages {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    border: none;
+    margin-right: 15px;
+}
+.btn-navpages:hover {
+    background-color: #2FBE8E;
+}
+
+.btn-first {
+background-image: url('../../assets/icon/btn-firstpage.svg');
+}
+
+.btn-last {
+background-image: url('../../assets/icon/btn-lastpage.svg');
+}
+
+.btn-next {
+background-image: url('../../assets/icon/btn-next-page.svg');
+}
+
+.btn-prev {
+background-image: url('../../assets/icon/btn-prev-page.svg');
+}
+.btn-numb {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    margin-right: 15px;
+    color: black;
+    background-color: #bbbbbb;
+}
+
+.btn-numb:hover {
+    background-color: #2FBE8E;
+    color: #fff;
+}
+.btn-X {
+    padding: 0;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+    border-radius: 4px;
+    background-image: url('../../assets/icon/x.svg');
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    opacity: .5;
+}
+.btn-X:hover {
+    background-color: #bbb;
+}
+.btn-save{
+    background-color: #019160;
+    color: #ffffff;
+    background-image: url('../../assets/icon/add.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-y: center;
+    background-position-x: 16px;
+    border: none;
+    position: absolute;
+    right: 32px;
+}
+.btn-save:hover {
+    background-color: #2FBE8E;
+}
+.btn-delete {
+    background-color: red;
+    opacity: .9;
+    background-image: url('../../assets/icon/delete.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: center;
+    color: #fff;
+    border: none;
+}
+
+    .btn-delete:hover {
+        background-color: red;
+        opacity: .5;
+    }
+
+.btn-invisible {
+    display: none;
+}
+.btn-cancel{
+    padding-left: 24px;
+    padding-right: 24px;
+}
